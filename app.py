@@ -11,7 +11,7 @@ st.set_page_config(
 st.sidebar.subheader("🔹 **Navigation**")  
 st.sidebar.page_link("pages/Cheap_meds.py", label="💊 Cheap Medicines")  
 st.sidebar.page_link("pages/Personalized_treatment.py", label="🩺 Personalized Treatment")  
-st.sidebar.page_link("pages/Symptoms.py", label="🦠 Assess Your Symptoms")  
+st.sidebar.page_link("pages/Chatbot.py", label="🦠 Assess Your Symptoms")  
 
 st.sidebar.markdown("---")  
 
@@ -75,7 +75,7 @@ with col2:
     st.success("AI-powered suggestions tailored to your health needs based on symptoms and history.")  
 
 with col3:  
-    st.page_link("pages/Symptoms.py", label="🦠 Assess Your Symptoms")  
+    st.page_link("pages/Chatbot.py", label="🦠 Assess Your Symptoms")  
     st.success("Analyze symptoms and get guidance on potential conditions and next steps.")  
 
 st.markdown("---")  
